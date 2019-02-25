@@ -113,4 +113,12 @@ Restart ngnix if no errors found
 
 http://your_server_ip/status
 
+##########
+Firewall
+##########
+
+9200, TCP, Elasticsearch HTTP REST endpoint
+9300, TCP, Elasticsearch cluster communication (not required if there is only one server)
+5601 TCP, Kibana (web interface)
+
 
